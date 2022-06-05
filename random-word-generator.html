@@ -8,16 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
 
 
-    <link rel="canonical" href="http://stringtool.github.io/string-builder.html">
+    <link rel="canonical" href="http://stringtool.github.io/random-word-generator.html">
 
-    <meta name="keywords" content="string,builder,online string builder,build my string,Multiline String Converter">
+    <meta name="keywords" content="random word generator, random words generator, generate random words">
 
 
-    <meta name="description" content="Build String Online to create string variable with multiple line of string">
+    <meta name="description" content="Looking for Random Word Generator Online? String Tool offers you Best & Free Random Words tool to generate random words.">
 
 
     <!-- page title -->
-    <title>String Builder | String Tool</title>
+    <title>Random Word Generator | String Tool</title>
 
 
     <link rel="stylesheet" href="http://stringtool.github.io/themes/startup/third_parties/bootstrap-5.0.2/css/bootstrap.min.css">
@@ -122,90 +122,74 @@
                     <ul class="p-0">
                         <li class="list-group-item border-0 m-0 p-2 shadow-lg my-2 bg-body  rounded-0">
                             <div class="row">
+
                                 <div class="col-12" id="full_screen">
-                                    <h1 class="text-start">
-                                        String Builder
-                                    </h1>
+                                    <h1 title="Reverse String" class="text-start">
+                                        Upside Down Text                                    </h1>
 
                                     <div class="row">
                                         <div class="col-sm-12 col-md-8">
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="row">
-                                                        <div class="col-12">
 
-
-                                                            <button title="Load Sample" id="load_sample" class="btn p-0 float-end">
-                                                                <i class="pointer   mx-2 mb-0" style="vertical-align: baseline; font-size:16px;">Sample</i>
-                                                            </button>
-
-                                                            <button title="Refresh Page" id="refresh_tool" class="btn p-0 float-end">
-                                                                <i id="" class="pointer icon icon-refresh icon-black icon-lg  mx-2 mb-0"></i>
-                                                            </button>
-
-                                                            <button title="Copy Input Text" id="copy_input_text" class="btn p-0 float-end">
-                                                                <i id="" class="pointer icon icon-copy icon-black icon-lg  mx-2 mb-0"></i>
-                                                            </button>
-
-                                                            <button title="Delete Input" id="delete_input" class="btn p-0 float-end">
-                                                                <i id="" class="pointer icon icon-recycle-bin icon-black icon-lg  mx-2 mb-0"></i>
-                                                            </button>
-                                                        </div>
                                                     </div>
 
                                                     <div class="row">
+
                                                         <div class="col-12">
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <button title="Load Sample" id="load_sample" class="btn p-0 float-end">
+                                                                        <i class="pointer   me-2 mb-0" style="vertical-align: baseline; font-size:16px;">Sample</i>
+                                                                    </button>
+
+                                                                    <button title="Refresh Page" id="refresh_tool" class="btn p-0 float-end">
+                                                                        <i id="" class="pointer icon icon-refresh icon-black icon-lg  mx-2 mb-0"></i>
+                                                                    </button>
+
+                                                                    <div class="float-end pt-1">
+                                                                        <label class="" title="Auto Working" for="auto" style="vertical-align: middle;">Auto</label>
+                                                                        <input title="Auto Working" id="auto" class="" type="checkbox" style="vertical-align: middle;">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                             <div class="position-relative">
-                                                                <label class="input_text_label" for="input_text ">Insert Text</label>
-                                                                <textarea id="input_text" rows="8" class="form-control text_border_etc"></textarea>
-                                                                <p id="letter_count" class="float-end">Char: 0</p>
+                                                                <label class="input_text_label" for="input_text ">Select Number Of Words</label>
+                                                                <input id="input_text" type="text" class="form-control-lg w-100">
                                                             </div>
                                                         </div>
+                                                        <div class="col-12 mb-md-1 mb-3 mt-2">
+
+                                                            <button title="Generate Now" id="main_action_btn" type="button" class="btn btn-info rounded-0 mt-1 w-100">
+                                                                Generate Now
+                                                            </button>
+                                                        </div>
                                                     </div>
 
                                                 </div>
-                                                <div class="col-12 text-center mt-3 mb-md-1 mb-3">
 
-                                                    <label for="add_new_line">Add New Line</label>
-                                                    <input id="add_new_line" class="me-3 me-md-4" type="checkbox">
-
-                                                    <label for="padded_space">Extra Padded Space</label>
-                                                    <input id="padded_space" class="me-3 me-md-4" type="checkbox">
-
-                                                    <label for="line_separator">Separator</label>
-                                                    <input id="line_separator" class="" type="input" value="+">
-
-
-                                                </div>
-                                                <div class="col-12 text-center mt-3 mb-md-1 mb-3">
-                                                    <label for="auto" style="vertical-align: middle;">Auto</label>
-                                                    <input id="auto" class="" type="checkbox" style="vertical-align: middle;" checked>
-                                                    <button id="build_now" type="button" class="btn btn-info rounded-0 mt-1">
-                                                        Build Now
-                                                    </button>
-                                                    <button id="upload_file" type="button" class="btn btn-secondary rounded-0 mt-1">
-                                                        <i class="pointer icon icon-upload icon-white mb-1"></i> Upload File
-                                                    </button>
-                                                    <input type="file" id="input_file" hidden>
-
-                                                </div>
-                                                <div class="col-12">
+                                                <div id="results_block" class="col-12 d-none">
                                                     <div class="row">
-                                                        <div class="col-12">
-                                                            <button id="copy_result" class="btn p-0 float-end">
-                                                                <i class="pointer float-end icon icon-copy icon-black icon-lg mx-2 mb-0"></i>
+                                                        <div class="col-12 text-end mt-3">
+                                                            <button title="Copy Result To Clipboard" id="copy_result" class="btn p-0 text-center mx-2">
+                                                                Copy <i class="pointer text-center icon icon-copy icon-black icon-lg mx-2 mb-0"></i>
                                                             </button>
 
-                                                            <button id="save_result_in_file" class="btn p-0 float-end"><i class="pointer float-end icon icon-download-black icon-black icon-lg mx-2 mb-0"></i></button>
+                                                            <a title="Download Result In Text File" id="save_result_in_file" class="btn p-0 text-center mx-2">
+                                                                Download <i class="pointer text-center icon icon-download-black icon-black icon-lg mx-2 mb-0"></i>
+                                                            </a>
                                                         </div>
                                                     </div>
                                                     <div class="row">
-                                                        <div class="col-12">
-                                                            <div class="position-relative">
-                                                                <label class="input_text_label" for="result_text">Result</label>
-                                                                <textarea id="result_text" rows="8" class="form-control text_border_etc" style="background-color: white;" readonly></textarea>
-                                                            </div>
+                                                        <div id="result_elem" class="col-12 text-center">
+
                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div id="errors_block" class="col-12 mt-2 d-none">
+                                                    <div id="errors_text" class="alert alert-danger" role="alert">
+                                                        !Something went Wrong
                                                     </div>
                                                 </div>
                                             </div>
@@ -236,7 +220,7 @@
 
 
 <div aria-live="polite" aria-atomic="true" style="left: auto;" class="fixed-bottom col-6 col-sm-3 col-md-3 col-lg-2" id="toasts_container"></div>
-<script src="http://stringtool.github.io/themes/startup/js/string-builder.js"></script>
+<script src="http://stringtool.github.io/themes/startup/js/random-word-generator.js"></script>
 <!-- footer close -->
 
 </body>

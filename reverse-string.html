@@ -8,16 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
 
 
-    <link rel="canonical" href="http://stringtool.github.io/string-builder.html">
+    <link rel="canonical" href="http://stringtool.github.io/reverse-string.html">
 
-    <meta name="keywords" content="string,builder,online string builder,build my string,Multiline String Converter">
+    <meta name="keywords" content="reverse text,reverse string, string reverse, reverse a string,reverse text online,reverse text string,inverter string online,reverse characters,inverse tex">
 
 
-    <meta name="description" content="Build String Online to create string variable with multiple line of string">
+    <meta name="description" content="Reverse String / Text Online easy to use tool to reverse your string, paste your string or load from url or Open a File and share">
 
 
     <!-- page title -->
-    <title>String Builder | String Tool</title>
+    <title>Reverse String | String Tool</title>
 
 
     <link rel="stylesheet" href="http://stringtool.github.io/themes/startup/third_parties/bootstrap-5.0.2/css/bootstrap.min.css">
@@ -122,10 +122,10 @@
                     <ul class="p-0">
                         <li class="list-group-item border-0 m-0 p-2 shadow-lg my-2 bg-body  rounded-0">
                             <div class="row">
+
                                 <div class="col-12" id="full_screen">
-                                    <h1 class="text-start">
-                                        String Builder
-                                    </h1>
+                                    <h1 title="Reverse String" class="text-start">
+                                        Reverse String                                    </h1>
 
                                     <div class="row">
                                         <div class="col-sm-12 col-md-8">
@@ -150,6 +150,12 @@
                                                             <button title="Delete Input" id="delete_input" class="btn p-0 float-end">
                                                                 <i id="" class="pointer icon icon-recycle-bin icon-black icon-lg  mx-2 mb-0"></i>
                                                             </button>
+
+                                                            <!-- <button id="save_input_in_link" class="btn p-0 float-end">
+                                                                <i id="" class="pointer icon icon-save icon-black icon-lg  mx-2 mb-0"></i>
+                                                            </button> -->
+
+
                                                         </div>
                                                     </div>
 
@@ -165,38 +171,31 @@
 
                                                 </div>
                                                 <div class="col-12 text-center mt-3 mb-md-1 mb-3">
-
-                                                    <label for="add_new_line">Add New Line</label>
-                                                    <input id="add_new_line" class="me-3 me-md-4" type="checkbox">
-
-                                                    <label for="padded_space">Extra Padded Space</label>
-                                                    <input id="padded_space" class="me-3 me-md-4" type="checkbox">
-
-                                                    <label for="line_separator">Separator</label>
-                                                    <input id="line_separator" class="" type="input" value="+">
-
-
-                                                </div>
-                                                <div class="col-12 text-center mt-3 mb-md-1 mb-3">
-                                                    <label for="auto" style="vertical-align: middle;">Auto</label>
-                                                    <input id="auto" class="" type="checkbox" style="vertical-align: middle;" checked>
-                                                    <button id="build_now" type="button" class="btn btn-info rounded-0 mt-1">
-                                                        Build Now
+                                                    <label title="Auto Working" for="auto" style="vertical-align: middle;">Auto</label>
+                                                    <input title="Auto Working" id="auto" class="" type="checkbox" style="vertical-align: middle;">
+                                                    <button title="Reverse Now" id="reverse_now" type="button" class="btn btn-info rounded-0 mt-1">
+                                                        Reverse Now
                                                     </button>
-                                                    <button id="upload_file" type="button" class="btn btn-secondary rounded-0 mt-1">
+                                                    <button title="Upload Local File" id="upload_file" type="button" class="btn btn-secondary rounded-0 mt-1">
                                                         <i class="pointer icon icon-upload icon-white mb-1"></i> Upload File
                                                     </button>
                                                     <input type="file" id="input_file" hidden>
+                                                    <!-- <button id="load_from_url" type="button" class="btn btn-warning rounded-0 mt-1">
+                                                        <i class="pointer icon icon-link icon-black mb-1"></i> Load From URL
+                                                    </button> -->
 
                                                 </div>
                                                 <div class="col-12">
+
+
+
                                                     <div class="row">
                                                         <div class="col-12">
-                                                            <button id="copy_result" class="btn p-0 float-end">
+                                                            <button title="Copy Result To Clipboard" id="copy_result" class="btn p-0 float-end">
                                                                 <i class="pointer float-end icon icon-copy icon-black icon-lg mx-2 mb-0"></i>
                                                             </button>
 
-                                                            <button id="save_result_in_file" class="btn p-0 float-end"><i class="pointer float-end icon icon-download-black icon-black icon-lg mx-2 mb-0"></i></button>
+                                                            <button title="Download Result In Text File" id="save_result_in_file" class="btn p-0 float-end"><i class="pointer float-end icon icon-download-black icon-black icon-lg mx-2 mb-0"></i></button>
                                                         </div>
                                                     </div>
                                                     <div class="row">
@@ -207,6 +206,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
+
                                                 </div>
                                             </div>
 
@@ -236,7 +237,7 @@
 
 
 <div aria-live="polite" aria-atomic="true" style="left: auto;" class="fixed-bottom col-6 col-sm-3 col-md-3 col-lg-2" id="toasts_container"></div>
-<script src="http://stringtool.github.io/themes/startup/js/string-builder.js"></script>
+<script src="http://stringtool.github.io/themes/startup/js/reverse-string.js"></script>
 <!-- footer close -->
 
 </body>

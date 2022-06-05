@@ -1,0 +1,138 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    background-color: #343a40;
+    vertical-align: bottom;
+}
+
+.icon.icon-x-small {
+    height: 0.5rem !important;
+    width: 0.5rem !important;
+}
+
+.icon.icon-small {
+    height: 0.8rem !important;
+    width: 0.8rem !important;
+}
+
+.icon.icon-md {
+    height: 1.2rem !important;
+    width: 1.2rem !important;
+}
+
+.icon.icon-lg {
+    width: 1.5em !important;
+    height: 1.5em !important;
+}
+
+.icon.icon-2x {
+    width: 2em !important;
+    height: 2em !important;
+}
+
+.icon.icon-3x {
+    width: 3em !important;
+    height: 3em !important;
+}
+
+.icon.icon-4x {
+    width: 4em !important;
+    height: 4em !important;
+}
+
+.icon.icon-5x {
+    width: 5em !important;
+    height: 5em !important;
+}
+
+.icon.icon-6x {
+    width: 6em !important;
+    height: 6em !important;
+}
+
+.icon.icon-small {
+    height: 0.8rem !important;
+    width: 0.8rem !important;
+}
+
+.icon.icon-black {
+    background-color: black;
+}
+.icon.icon-black {
+    color: white;
+}
+
+.icon.icon-copy {
+    -webkit-mask-image: url(../images/icons/copy.icon.svg);
+    mask-image: url(../images/icons/copy.icon.svg);
+}
+
+.icon.icon-plus {
+    -webkit-mask-image: url(../images/icons/plus.icon.svg);
+    mask-image: url(../images/icons/plus.icon.svg);
+}
+
+.icon.icon-minus {
+    -webkit-mask-image: url(../images/icons/minus.icon.svg);
+    mask-image: url(../images/icons/minus.icon.svg);
+}
+
+.icon.icon-exit {
+    -webkit-mask-image: url(../images/icons/exit.icon.svg);
+    mask-image: url(../images/icons/exit.icon.svg);
+}
+.icon.icon-error {
+    -webkit-mask-image: url(../images/icons/error.icon.svg);
+    mask-image: url(../images/icons/error.icon.svg);
+}
+
+.icon.icon-folder {
+    -webkit-mask-image: url(../images/icons/folder.icon.svg);
+    mask-image: url(../images/icons/folder.icon.svg);
+}
+
+.icon.icon-recycle-bin {
+    -webkit-mask-image: url(../images/icons/recycle-bin.icon.svg);
+    mask-image: url(../images/icons/recycle-bin.icon.svg);
+}
+
+.icon.icon-refresh {
+    -webkit-mask-image: url(../images/icons/refresh.icon.svg);
+    mask-image: url(../images/icons/refresh.icon.svg);
+}
+
+.icon.icon-save {
+    -webkit-mask-image: url(../images/icons/save.icon.svg);
+    mask-image: url(../images/icons/save.icon.svg);
+}
+
+.icon.icon-link {
+    -webkit-mask-image: url(../images/icons/link.icon.svg);
+    mask-image: url(../images/icons/link.icon.svg);
+}
+
+.icon.icon-file {
+    -webkit-mask-image: url(../images/icons/file.icon.svg);
+    mask-image: url(../images/icons/file.icon.svg);
+}
+
+.icon.icon-upload {
+    -webkit-mask-image: url(../images/icons/upload.icon.svg);
+    mask-image: url(../images/icons/upload.icon.svg);
+}
+
+.icon.icon-download-black {
+    -webkit-mask-image: url(../images/icons/download-black.icon.svg);
+    mask-image: url(../images/icons/download-black.icon.svg);
+}
+.icon.icon-full-screen {
+    -webkit-mask-image: url(../images/icons/full-screen.icon.svg);
+    mask-image: url(../images/icons/full-screen.icon.svg);
+}

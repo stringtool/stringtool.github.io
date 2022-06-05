@@ -8,16 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
 
 
-    <link rel="canonical" href="http://stringtool.github.io/string-builder.html">
+    <link rel="canonical" href="http://stringtool.github.io/rot13-decoder-encoder.html">
 
-    <meta name="keywords" content="string,builder,online string builder,build my string,Multiline String Converter">
+    <meta name="keywords" content="rot13 decoder, rot13 encoder, rot13 decoder encoder, rot13 encoder decoder, rot13 encoder decoder encoder, rot13 encoder decoder encoder decoder">
 
 
-    <meta name="description" content="Build String Online to create string variable with multiple line of string">
+    <meta name="description" content="ROT13 Cipher is a particular form of Ceaser cipher in which the shift is always 13. The ROT13 online decoder & encoder replaces a letter with the 13th letter after it in the English alphabet.">
 
 
     <!-- page title -->
-    <title>String Builder | String Tool</title>
+    <title>ROT13 Decoder/Encoder | String Tool</title>
 
 
     <link rel="stylesheet" href="http://stringtool.github.io/themes/startup/third_parties/bootstrap-5.0.2/css/bootstrap.min.css">
@@ -124,7 +124,7 @@
                             <div class="row">
                                 <div class="col-12" id="full_screen">
                                     <h1 class="text-start">
-                                        String Builder
+                                        ROT13 Decoder/Encoder
                                     </h1>
 
                                     <div class="row">
@@ -133,7 +133,6 @@
                                                 <div class="col-12">
                                                     <div class="row">
                                                         <div class="col-12">
-
 
                                                             <button title="Load Sample" id="load_sample" class="btn p-0 float-end">
                                                                 <i class="pointer   mx-2 mb-0" style="vertical-align: baseline; font-size:16px;">Sample</i>
@@ -150,6 +149,8 @@
                                                             <button title="Delete Input" id="delete_input" class="btn p-0 float-end">
                                                                 <i id="" class="pointer icon icon-recycle-bin icon-black icon-lg  mx-2 mb-0"></i>
                                                             </button>
+
+
                                                         </div>
                                                     </div>
 
@@ -164,25 +165,50 @@
                                                     </div>
 
                                                 </div>
-                                                <div class="col-12 text-center mt-3 mb-md-1 mb-3">
 
-                                                    <label for="add_new_line">Add New Line</label>
-                                                    <input id="add_new_line" class="me-3 me-md-4" type="checkbox">
-
-                                                    <label for="padded_space">Extra Padded Space</label>
-                                                    <input id="padded_space" class="me-3 me-md-4" type="checkbox">
-
-                                                    <label for="line_separator">Separator</label>
-                                                    <input id="line_separator" class="" type="input" value="+">
+                                                <div class="col-12 text-center mt-1 mb-md-1 mb-3">
+                                                    <div class="row">
+                                                        <div class="col-12 col-sm-6">
+                                                            <button id="convert_now" type="button" class="btn btn-info rounded-0 w-100">
+                                                                Convert Now
+                                                            </button>
+                                                        </div>
+                                                        <div class="col-12 col-sm-6">
+                                                            <select id="rot_level" class="form-control">
+                                                                <option value="1">ROT-1</option>
+                                                                <option value="2">ROT-2</option>
+                                                                <option value="3">ROT-3</option>
+                                                                <option value="4">ROT-4</option>
+                                                                <option value="5">ROT-5</option>
+                                                                <option value="6">ROT-6</option>
+                                                                <option value="7">ROT-7</option>
+                                                                <option value="8">ROT-8</option>
+                                                                <option value="9">ROT-9</option>
+                                                                <option value="10">ROT-10</option>
+                                                                <option value="11">ROT-11</option>
+                                                                <option value="12">ROT-12</option>
+                                                                <option value="13" selected="">ROT-13</option>
+                                                                <option value="14">ROT-14</option>
+                                                                <option value="15">ROT-15</option>
+                                                                <option value="16">ROT-16</option>
+                                                                <option value="17">ROT-17</option>
+                                                                <option value="18">ROT-18</option>
+                                                                <option value="19">ROT-19</option>
+                                                                <option value="20">ROT-20</option>
+                                                                <option value="21">ROT-21</option>
+                                                                <option value="22">ROT-22</option>
+                                                                <option value="23">ROT-23</option>
+                                                                <option value="24">ROT-24</option>
+                                                                <option value="25">ROT-25</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
 
 
                                                 </div>
-                                                <div class="col-12 text-center mt-3 mb-md-1 mb-3">
+                                                <div class="col-12 text-center mt-1 mb-md-1 mb-3">
                                                     <label for="auto" style="vertical-align: middle;">Auto</label>
                                                     <input id="auto" class="" type="checkbox" style="vertical-align: middle;" checked>
-                                                    <button id="build_now" type="button" class="btn btn-info rounded-0 mt-1">
-                                                        Build Now
-                                                    </button>
                                                     <button id="upload_file" type="button" class="btn btn-secondary rounded-0 mt-1">
                                                         <i class="pointer icon icon-upload icon-white mb-1"></i> Upload File
                                                     </button>
@@ -236,7 +262,7 @@
 
 
 <div aria-live="polite" aria-atomic="true" style="left: auto;" class="fixed-bottom col-6 col-sm-3 col-md-3 col-lg-2" id="toasts_container"></div>
-<script src="http://stringtool.github.io/themes/startup/js/string-builder.js"></script>
+<script src="http://stringtool.github.io/themes/startup/js/rot13-decoder-encoder.js"></script>
 <!-- footer close -->
 
 </body>

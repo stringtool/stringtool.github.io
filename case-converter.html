@@ -8,16 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
 
 
-    <link rel="canonical" href="http://stringtool.github.io/string-builder.html">
+    <link rel="canonical" href="http://stringtool.github.io/case-converter.html">
 
-    <meta name="keywords" content="string,builder,online string builder,build my string,Multiline String Converter">
+    <meta name="keywords" content="case converter, convert case, convert text,Text case converter">
 
 
-    <meta name="description" content="Build String Online to create string variable with multiple line of string">
+    <meta name="description" content="Free Case Converter helps to converts any text to either uppercase, lowercase, propercase or sentence case.">
 
 
     <!-- page title -->
-    <title>String Builder | String Tool</title>
+    <title>Case Converter | String Tool</title>
 
 
     <link rel="stylesheet" href="http://stringtool.github.io/themes/startup/third_parties/bootstrap-5.0.2/css/bootstrap.min.css">
@@ -124,7 +124,8 @@
                             <div class="row">
                                 <div class="col-12" id="full_screen">
                                     <h1 class="text-start">
-                                        String Builder
+                                        Case Converter
+                                        <p class="float-end h6 m-2 pointer"><sub>[Alt+x]</sub><i class="icon icon-full-screen icon-lg icon-success"></i></p>
                                     </h1>
 
                                     <div class="row">
@@ -150,6 +151,8 @@
                                                             <button title="Delete Input" id="delete_input" class="btn p-0 float-end">
                                                                 <i id="" class="pointer icon icon-recycle-bin icon-black icon-lg  mx-2 mb-0"></i>
                                                             </button>
+
+
                                                         </div>
                                                     </div>
 
@@ -164,25 +167,26 @@
                                                     </div>
 
                                                 </div>
-                                                <div class="col-12 text-center mt-3 mb-md-1 mb-3">
 
-                                                    <label for="add_new_line">Add New Line</label>
-                                                    <input id="add_new_line" class="me-3 me-md-4" type="checkbox">
+                                                <div class="col-12 text-center mt-1 mb-md-1 mb-3">
 
-                                                    <label for="padded_space">Extra Padded Space</label>
-                                                    <input id="padded_space" class="me-3 me-md-4" type="checkbox">
-
-                                                    <label for="line_separator">Separator</label>
-                                                    <input id="line_separator" class="" type="input" value="+">
-
+                                                    <button id="upper_case" type="button" class="btn btn-info rounded-0 mt-1">
+                                                        Upper Case
+                                                    </button>
+                                                    <button id="lower_case" type="button" class="btn btn-secondary rounded-0 mt-1">
+                                                        Lower Case
+                                                    </button>
+                                                    <button id="title_case" type="button" class="btn btn-warning rounded-0 mt-1">
+                                                        Title Case
+                                                    </button>
+                                                    <button id="sentence_case" type="button" class="btn btn-success rounded-0 mt-1">
+                                                        Sentence Case
+                                                    </button>
 
                                                 </div>
-                                                <div class="col-12 text-center mt-3 mb-md-1 mb-3">
+                                                <div class="col-12 text-center mt-1 mb-md-1 mb-3">
                                                     <label for="auto" style="vertical-align: middle;">Auto</label>
                                                     <input id="auto" class="" type="checkbox" style="vertical-align: middle;" checked>
-                                                    <button id="build_now" type="button" class="btn btn-info rounded-0 mt-1">
-                                                        Build Now
-                                                    </button>
                                                     <button id="upload_file" type="button" class="btn btn-secondary rounded-0 mt-1">
                                                         <i class="pointer icon icon-upload icon-white mb-1"></i> Upload File
                                                     </button>
@@ -236,7 +240,7 @@
 
 
 <div aria-live="polite" aria-atomic="true" style="left: auto;" class="fixed-bottom col-6 col-sm-3 col-md-3 col-lg-2" id="toasts_container"></div>
-<script src="http://stringtool.github.io/themes/startup/js/string-builder.js"></script>
+<script src="http://stringtool.github.io/themes/startup/js/case-converter.js"></script>
 <!-- footer close -->
 
 </body>
